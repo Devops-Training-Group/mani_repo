@@ -17,7 +17,7 @@ function f3()
 }
 function f4()
 {
-	sudo grep error var/log/messages
+	sudo grep systemd: /var/log/messages
 	echo "last 10 messages shows"
 }
 f1
